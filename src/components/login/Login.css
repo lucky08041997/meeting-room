@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
+
+h2 {
+	color: white;
+	font-size: 34px;
+	text-align: center;
+	font-family: 'Risque', cursive;
+}
+
+input {
+	font-family: 'Risque', cursive;
+}
+.card {
+	background-color: #282c34;
+
+}
+
+.btn.login, .btn.daftar{
+	 background-color: #5FC8B5;
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	 width: 100px;
+	 font-family: 'Risque', cursive;
+}
+
+.btn.login:hover, .btn.daftar:hover{
+	background-color: white;
+}
+
