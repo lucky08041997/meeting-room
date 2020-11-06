@@ -69,7 +69,7 @@ export default class Pengajuan extends Component {
         const { datas } = this.state
         const datasItem = datas.map((data) => {
             if (data.status === 0)
-                return <Card key={data.id} style={{ width: "30%", marginLeft: "15px", marginTop: '15px' }}>
+                return <Card key={data.id} style={{ width: "30%", marginLeft: "15px", marginTop: '15px', marginBottom: '15px' }}>
                     <Card.Header>Tgl: {data.date}</Card.Header>
                     <Card.Img variant="top" src={data.roomImage} />
                     <Card.Body>
@@ -78,7 +78,7 @@ export default class Pengajuan extends Component {
                     </Card.Body>
                     <ListGroup className="list-group-flush">
                         <ListGroupItem>Telepon: {data.telepon}</ListGroupItem>
-                        <ListGroupItem>Peserta: {data.peserta}</ListGroupItem>
+                        <ListGroupItem>Peserta: {data.peserta} Orang</ListGroupItem>
                     </ListGroup>
                     <Card.Body>
                         <Button onClick={() => this.acceptRequest(data)} variant="outline-success">Terima</Button>
