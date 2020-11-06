@@ -1,6 +1,6 @@
 /* eslint-disable array-callback-return */
 import React, { Component } from 'react'
-import { Navbar, Nav, Card, ListGroup, ListGroupItem } from "react-bootstrap";
+import { Card, ListGroup, ListGroupItem } from "react-bootstrap";
 
 export default class SewaDiterima extends Component {
     constructor() {
@@ -52,15 +52,6 @@ export default class SewaDiterima extends Component {
 
         return (
             <React.Fragment>
-                <Navbar bg="light" variant="light">
-                    <div className="container">
-                        <Navbar.Brand href="#home">Halo, Admin!</Navbar.Brand>
-                        <Nav className="mr-auto">
-                            <Nav.Link href="#home">Pengajuan Sewa</Nav.Link>
-                            <Nav.Link href="#features">Data Sewa Diterima</Nav.Link>
-                        </Nav>
-                    </div>
-                </Navbar>
                 <div className="jumbotron jumbotron-fluid">
                     <div className="container">
                         <div className="container">

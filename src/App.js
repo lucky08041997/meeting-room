@@ -1,14 +1,11 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Pengajuan from './pages/Pengajuan';
-import SewaDiterima from './pages/SewaDiterima';
+import AdminPage from './pages/AdminPage';
+
 
 function App() {
   return (
-    <div>
-      <SewaDiterima />
-      <Pengajuan />
-    </div>
+    <AdminPage />
   );
 }
 
