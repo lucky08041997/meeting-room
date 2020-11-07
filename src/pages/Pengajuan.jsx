@@ -28,7 +28,7 @@ export default class Pengajuan extends Component {
 
     // Fetch data pada db.json 
     fetchData() {
-        fetch('http://localhost:3001/dataPinjam').then(res => res.json()).then(res => this.setState({
+        fetch('http://localhost:3003/dataPinjam').then(res => res.json()).then(res => this.setState({
             length: res.length,
             datas: res,
             isUpdate: false,
@@ -42,7 +42,7 @@ export default class Pengajuan extends Component {
     acceptRequest(data) {
         data['status'] = 1
 
-        fetch("http://localhost:3001/dataPinjam/" + data.id, {
+        fetch("http://localhost:3003/dataPinjam/" + data.id, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"
@@ -56,7 +56,7 @@ export default class Pengajuan extends Component {
     // Menjadi status = 2 (data sewa baru ditolak)
     declineRequest(data) {
         data['status'] = 2
-        fetch("http://localhost:3001/dataPinjam/" + data.id, {
+        fetch("http://localhost:3003/dataPinjam/" + data.id, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"
