@@ -10,11 +10,21 @@
   "room": [
     {
       "id": 1,
-      "nama": "Ruangan 1"
+      "nama": "Ruangan 1",
+      "roomImage": "https://images.squarespace-cdn.com/content/v1/592cd511197aea28581f5469/1572960091226-G1XA43DNK3AV7YPT0R1V/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/avenue8+coworking+space+jakarta+pusat+thamrin",
+      "available": "Available"
     },
     {
       "id": 2,
-      "nama": "Ruangan 2"
+      "nama": "Ruangan 2",
+      "roomImage": "https://images.squarespace-cdn.com/content/v1/592cd511197aea28581f5469/1574848968059-XND5FJV7XW7IMTFE9Y1O/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/3.+avenue8+meeting+room+thamrin+menteng+jakarta+pusat.jpg",
+      "available": "Available"
+    },
+    {
+      "id": 3,
+      "nama": "Ruangan 3",
+      "roomImage": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      "available": "Unavailable"
     }
   ],
   "dataPinjam": [
