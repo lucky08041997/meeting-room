@@ -1,6 +1,6 @@
 # Running JSON Server
 
-### `json-server -p 3001 --watch db.json`
+### `json-server -p 3003 --watch db.json`
 
 # Getting Started with Create React App
 
