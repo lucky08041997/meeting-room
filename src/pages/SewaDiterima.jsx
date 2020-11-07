@@ -19,7 +19,7 @@ export default class SewaDiterima extends Component {
 
     // Fetch data pada db.json 
     fetchData() {
-        fetch('http://localhost:3001/dataPinjam').then(res => res.json()).then(res => this.setState({
+        fetch('http://localhost:3003/dataPinjam').then(res => res.json()).then(res => this.setState({
             length: res.length,
             datas: res,
             isUpdate: false,
