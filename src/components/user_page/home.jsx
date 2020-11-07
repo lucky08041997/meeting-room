@@ -18,8 +18,8 @@ export default class home extends Component {
     }
 
     fetchData() {
-        fetch('http://localhost:3003/room').then(res => res.json()).then(res => this.setState({
-            // http://52.221.203.43:3003/room
+        fetch('http://52.221.203.43:3003/room').then(res => res.json()).then(res => this.setState({
+            // http://localhost:3003/room
             length: res.length,
             item: res,
             isUpdate: false,
