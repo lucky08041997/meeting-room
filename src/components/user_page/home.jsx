@@ -6,12 +6,10 @@ export default class home extends Component {
         super()
         this.state = {
             length: 0,
-            item: [],
-            color: "black",
-            available:"Available"
+            item: []
         }
         this.fetchData = this.fetchData.bind(this);
-    }
+;    }
 
     componentDidMount() {
         this.fetchData()
@@ -27,23 +25,15 @@ export default class home extends Component {
         this.setState({ isUpdate: false})
     }
 
-    onChange = () => {
-        if (this.state.available == 'green'){
-            this.setState({ color: 'green' });
-        }
-        else {
-            this.setState({ color: 'red' });
-        }
-    }
     render() {
         const { item } = this.state
         const dataItem = item.map((data) => {
+            if(data.available === "Available")
             return <Card key={data.id} key={data.id} style={{ width: "30%", marginLeft: "15px", marginTop: '15px', marginBottom: '15px'}}>
                     <Card.Img variant="top" src={data.roomImage} />
                     <Card.Body>
                             <Card.Title>{data.nama}</Card.Title>
-                            <Card.Text className={(data.available === this.state.available ? 'Unavailable' : 'Available')}
-                                style={{ color: this.state.color }}>
+                            <Card.Text style={{ color: data.available === 'Available' ? 'green' : 'red', fontWeight:'bold' }}>
                                 {data.available}</Card.Text>
                             <Button variant="outline-success">Terima</Button>
                     </Card.Body>
