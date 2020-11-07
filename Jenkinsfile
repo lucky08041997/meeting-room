@@ -4,7 +4,7 @@ pipeline{
         stage("Build"){
             steps{
                 sh "npm install"
-                sh "npm install json-server"
+                sh "sudo npm install -g json-server"
                 sh "json-server -p 3003 --watch db.json"
                 sh "npm run build"
             }
