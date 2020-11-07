@@ -1,77 +1,77 @@
 {
-    "admin": [
-        {
-            "id": 1,
-            "nama": "Admin",
-            "email": "admin@mail.com",
-            "password": "12345"
-        }
-    ],
-    "room": [
-        {
-            "id": 1,
-            "nama": "Ruangan 1"
-        },
-        {
-            "id": 2,
-            "nama": "Ruangan 2"
-        }
-    ],
-    "dataPinjam": [
-        {
-            "id": 1,
-            "nama": "Lorem Ipsum",
-            "jabatan": "General Manager",
-            "telepon": "+62888000999",
-            "status": 0,
-            "peserta": 50,
-            "room": "1",
-            "roomImage": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-            "date": "12-12-2020"
-        },
-        {
-            "id": 2,
-            "nama": "Dolor Sit Amet",
-            "jabatan": "General Manager",
-            "telepon": "+62888000999",
-            "peserta": 10,
-            "status": 0,
-            "room": "1",
-            "roomImage": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-            "date": "12-12-2020"
-        },
-        {
-            "id": 3,
-            "nama": "John Doe",
-            "jabatan": "General Manager",
-            "telepon": "+62888000999",
-            "peserta": 20,
-            "status": 0,
-            "room": "1",
-            "roomImage": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-            "date": "12-12-2020"
-        },
-        {
-            "id": 4,
-            "nama": "John Doe 2",
-            "jabatan": "General Manage",
-            "telepon": "+62888000999",
-            "peserta": 30,
-            "status": 0,
-            "room": "1",
-            "roomImage": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-            "date": "12-12-2020"
-        },
-        {
-            "id": 5,
-            "nama": "John Doe 2",
-            "jabatan": "General Manage",
-            "telepon": "+62888000999",
-            "peserta": 40,
-            "status": 0,
-            "room": "1",
-            "roomImage": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-            "date": "12-12-2020"
-        }
-    ]
+  "admin": [
+    {
+      "id": 1,
+      "nama": "Admin",
+      "email": "admin@mail.com",
+      "password": "12345"
+    }
+  ],
+  "room": [
+    {
+      "id": 1,
+      "nama": "Ruangan 1"
+    },
+    {
+      "id": 2,
+      "nama": "Ruangan 2"
+    }
+  ],
+  "dataPinjam": [
+    {
+      "id": 1,
+      "nama": "Lorem Ipsum",
+      "jabatan": "General Manager",
+      "telepon": "+62888000999",
+      "status": 0,
+      "peserta": 50,
+      "room": "1",
+      "roomImage": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      "date": "12-12-2020"
+    },
+    {
+      "id": 2,
+      "nama": "Dolor Sit Amet",
+      "jabatan": "General Manager",
+      "telepon": "+62888000999",
+      "peserta": 10,
+      "status": 0,
+      "room": "1",
+      "roomImage": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      "date": "12-12-2020"
+    },
+    {
+      "id": 3,
+      "nama": "John Doe",
+      "jabatan": "General Manager",
+      "telepon": "+62888000999",
+      "peserta": 20,
+      "status": 0,
+      "room": "1",
+      "roomImage": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      "date": "12-12-2020"
+    },
+    {
+      "id": 4,
+      "nama": "John Doe 2",
+      "jabatan": "General Manage",
+      "telepon": "+62888000999",
+      "peserta": 30,
+      "status": 1,
+      "room": "1",
+      "roomImage": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      "date": "12-12-2020"
+    },
+    {
+      "id": 5,
+      "nama": "John Doe 2",
+      "jabatan": "General Manage",
+      "telepon": "+62888000999",
+      "peserta": 40,
+      "status": 1,
+      "room": "1",
+      "roomImage": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      "date": "12-12-2020"
+    }
+  ]
 }
