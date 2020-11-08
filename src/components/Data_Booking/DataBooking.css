@@ -1,0 +1,12 @@
+button {
+    width: 100%;
+  }
+  
+  .container-fluid {
+    height: 100vh;
+    background-color: #17224d;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
